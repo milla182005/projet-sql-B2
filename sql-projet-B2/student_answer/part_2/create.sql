@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS movie_db;
-USE movie_db;
-
 CREATE TABLE genre (
     genre_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL
